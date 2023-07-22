@@ -1,6 +1,6 @@
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: #FBFBFB;
+    background-color: #F5F5F5;
     padding: 20px 0 60px 0; 
 
   }
@@ -218,4 +218,24 @@ td{
     }
   }
 
+  .introteksti{
+    padding: 5px 20px 0 20px;
+    color: gray;
+}
+
+.kuvat {
+
+  text-align: right;
+  padding: 20px;
+  width: 100%;
+  background-color: #F5F5F5;
+  margin-top: 20px;
+
  
+}
+#myImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
