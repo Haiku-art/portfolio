@@ -32,23 +32,6 @@ h3{
     /* margin-top: 20px; */
 }
 
-.links{
-    color: black;
-    font-weight: bold;
-    background-color: rgb(233, 255, 137); 
-    padding: 2px 20px 2px 20px;
-    border: 1px solid;
-    box-shadow: 1px 1px 1px #c0c0c0; 
-
-   
-}
-
-.links:hover{
-    background-color: rgb(187, 255, 0);
-    color: black;
-    
-
-}
 
 .linkkari{
     color: rgb(0, 0, 0);
@@ -76,9 +59,6 @@ ul{
     padding: 20px;
 }
 
-
-
-  
 
 .navbar {
     display: flex;
@@ -128,6 +108,23 @@ ul{
     max-height: 1000px; /* Set a large enough value to accommodate the expanded content */
   }
 
+  .links{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(233, 255, 137); 
+    padding: 2px 20px 2px 20px;
+    border: 1px solid;
+    box-shadow: 1px 1px 1px #c0c0c0; 
+    margin: 20px 5px 20px 0px;
+
+   
+}
+
+.links:hover{
+    background-color: rgb(187, 255, 0);
+    color: black;
+}
+
   .naytaNappi{
     display: flex;
     align-items: center;
@@ -135,7 +132,7 @@ ul{
     background-color: #ffffff;
     border: 0px solid black;
     padding: 5px 5px 5px 5px;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 10px 10px;
     font-size: 20px;
     font-weight: bold;
     transition: background-color 0.4s ease-in-out;
@@ -146,35 +143,55 @@ background-color: #b196fd;
 
 }
 
+#navBtn{
+  border: 0.8px solid black;
+  padding: 3px 10px 3px 10px;
+  transition: background-color 0.4s ease-in-out;
+}
+
+#navBtn:hover{
+  background-color: rgb(233, 255, 137);
+  box-shadow: 1px 1px 1px #c0c0c0;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 80px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 2px solid; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(233, 255, 137); /* Set a background color */
+  color: rgb(0, 0, 0); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 100px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  width: 60px;
+  height: 60px;
+}
+
+#myBtn:hover {
+  background-color: rgb(187, 255, 0); /* Add a dark-grey background on hover */
+}
 
 td{
     padding: 20px 40px 0 0;
     border: 0px solid black;
     vertical-align: top;
-
-      
 }
 
-#z{
-    border: 0.8px solid black;
-    padding: 3px 10px 3px 10px;
-    transition: background-color 0.4s ease-in-out;
-}
 
-#z:hover{
-    background-color: rgb(233, 255, 137);
-    box-shadow: 1px 1px 1px #c0c0c0;
-}
 #listofskills{
     margin-bottom: 40px;
-    
 }
+
 #a label {
     color: white;
     background-color: #b196fd;
     padding: 2px 10px 2px 10px;
-    margin: 6px 3px 6px 3px;
-   
+    margin: 6px 3px 6px 3px; 
 }
 
 #b label {
@@ -184,53 +201,19 @@ td{
     margin: 3px;
     border-radius: 20px;
 }
-
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 80px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: 2px solid; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: rgb(233, 255, 137); /* Set a background color */
-    color: rgb(0, 0, 0); /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 100px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-    width: 60px;
-    height: 60px;
-  }
   
-  #myBtn:hover {
-    background-color: rgb(187, 255, 0); /* Add a dark-grey background on hover */
-  }
-
-  img {
-    display: block; /* Show images by default */
-  }
-
-  /* Media query for mobile devices with a maximum width of 767px */
-  @media (max-width: 767px) {
-    img {
-      display: none; /* Hide images on mobile */
-    }
-  }
-
-  .introteksti{
+.introteksti{
     padding: 5px 20px 0 20px;
     color: gray;
 }
 
 .kuvat {
-
+  display: block;
   text-align: right;
   padding: 20px;
   width: 100%;
   background-color: #F5F5F5;
   margin-top: 20px;
-
  
 }
 #myImage{
@@ -239,3 +222,33 @@ td{
   margin-right: auto;
 
 }
+#pikkulistat{
+  margin: 20px 0 20px 0px;
+  padding: 10px;
+  width: 80%;
+}
+
+#pikkulistat li{
+  color: rgb(0, 0, 0) !important;
+  padding: 2px !important;
+  margin: 2px 0 2px 0 !important; 
+  font-size: 10pt;
+  list-style-type: square;
+
+}
+
+
+  @media (max-width: 767px) {
+   
+    .kuvat {
+      display: none;
+    }
+    #myImage{
+      display: none;
+    }
+    body{
+      padding: 0px;
+    }
+  }
+
+  
