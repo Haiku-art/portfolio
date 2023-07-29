@@ -259,6 +259,7 @@ td{
     #myImage{
       display: none;
     }
+    
     body{
       padding: 0px;
     }
@@ -268,6 +269,10 @@ td{
     }
     #header td{
       padding: 0px;
+    }
+    #pirkka{
+      width: 80%;
+      height: auto;
     }
   }
 
