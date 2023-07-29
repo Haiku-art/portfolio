@@ -11,15 +11,12 @@ body {
     height: 100%;
     padding: 20px;
     margin-bottom: 20px;
-   
-    
 
 }
 #header{
     margin: 20px 0 20px 0px;  
     padding: 10px;
 }
-
 
 h1{
     font-size: 28px;
@@ -263,6 +260,13 @@ td{
       display: none;
     }
     body{
+      padding: 0px;
+    }
+    .align-left{
+      margin-bottom: 10px;
+     
+    }
+    #header td{
       padding: 0px;
     }
   }
