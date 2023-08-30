@@ -154,11 +154,10 @@ ul{
 
 }
 .naytaNappi:hover {
-/* background-color: #b7b6ff; */
 border: 2px solid #000000; 
 box-shadow: 4px 4px 1px #b7b6ff; 
 color: #000000;
-/* width: 500px; */
+
 
 }
 
