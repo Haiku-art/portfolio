@@ -127,7 +127,7 @@ ul{
 }
 
 .links:hover{
-    background-color: #60ffca;
+    background-color: #beff7d;
     color: black;
 }
 
@@ -149,7 +149,7 @@ ul{
     margin: 0px 10px 10px 10px;
     font-size: 18px;
     font-weight: bold;
-    transition: background-color 0.8s, border 0.3s, color 0.3s, box-shadow 0.5s ease-in-out;
+    transition: background-color 0.8s, border 0.5s, color 0.5s, box-shadow 0.5s ease-in-out;
     box-shadow: 1px 1px 1px #ffffff;
 
 }
@@ -158,7 +158,11 @@ border: 2px solid #000000;
 box-shadow: 4px 4px 1px #b7b6ff; 
 color: #000000;
 
+}
 
+.naytaNappi:focus {
+  outline: none;
+  border-radius: 0;
 }
 
 
