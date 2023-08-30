@@ -44,7 +44,12 @@ li{
 }
 ul{
     /* margin-top: 20px; */
-    list-style-type: none; 
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+hr{
+  border: 1px solid #F5F5F5;
 }
 
 .footer{
@@ -142,10 +147,10 @@ ul{
   .naytaNappi{
     display: flex;
     align-items: center;
-    width: 350px; 
+    width: max-content; 
     background-color: #ffffff;
     border: 2px solid rgb(255, 255, 255);
-    padding: 5px 5px 5px 5px;
+    padding: 5px 15px 5px 5px;
     margin: 0px 10px 10px 10px;
     font-size: 18px;
     font-weight: bold;
@@ -169,12 +174,12 @@ color: #000000;
 #navBtn{
   border: 0.8px solid black;
   padding: 3px 10px 3px 10px;
-  transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s, box-shadow 0.5s ease-in-out;
 }
 
 #navBtn:hover{
   background-color: #CCFECB;
-  box-shadow: 1px 1px 1px #c0c0c0;
+  box-shadow: 3px 3px 1px #c0c0c0;
 }
 
 #myBtn {
@@ -203,6 +208,8 @@ td{
     padding: 20px 40px 0 0;
     border: 0px solid black;
     vertical-align: top;
+  
+    
 }
 
 
@@ -227,7 +234,7 @@ td{
   
 .introteksti{
     padding: 5px 20px 0 20px;
-    color: rgb(107, 107, 107);
+    color: rgb(59, 59, 59);
 }
 
 .kuvat {
@@ -273,6 +280,7 @@ td{
     body{
       padding: 0px;
     }
+   
     .align-left{
       margin-bottom: 10px;
      
@@ -287,6 +295,7 @@ td{
     .naytaNappi:active{
       border: 1px solid black;
     }
+    
   }
 
   
